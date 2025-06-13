@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://wallpapers.com/images/featured/restaurant-background-2ez77umko2vj5w02.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(44, 62, 80, 0.9); /* Dark blue with opacity */
+    color: white;
+    padding: 15px 0;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e74c3c; /* Red color when hovering over a menu item */
+}
+
+.content {
+    padding-top: 70px;
+}
+
+section {
+    padding: 50px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    border-radius: 10px;
+}
